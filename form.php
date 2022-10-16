@@ -1,0 +1,82 @@
+<?php include 'mail.php' ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style1.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<form class="container" id="container" action="https://formsubmit.co/rbgarg4881@gmail.com" method="POST">
+		<input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://renu286.github.io/thedietsdoctor/thankspage.html">
+        <div class="form-1">
+		<h1><i class="fa fa-user-o"></i> &nbsp; Give Your Personal Infomation</h1>
+		<ul>
+		<h3>&nbsp; Full Name</h3>
+		<li><input type="text" placeholder="name" class="input-1" name="FullName" required></li>
+		<h3>&nbsp; Email</h3>
+		<li><input type="email" placeholder="email" class="input-1" name="Email" required></li>
+		<h3>&nbsp; Address</h3>
+		<li><input type="text" placeholder="address" class="input-1" name="Address" required></li>
+		<h3>&nbsp; Phone</h3>
+		<li><input type="number" placeholder="Phone" class="input-1" name="Phone" required></li>
+		<h3>&nbsp; Gender</h3>
+	    <li><input type="radio" class="check" name="Gender" value="Male"><label>Male</label>
+	    <input type="radio" class="check" name="Gender" value="Female"><label>Female</label><br><br>
+		<input type="radio" class="check" name="Gender" value="Other"><label>Other</label></li>
+		<h3>&nbsp; Weight(kg)</h3>
+		<li><input type="text" placeholder="Weight" name="Weight" class="input-1" required></li>
+		<h3>&nbsp; Height(inch)</h3>
+		<li><input type="text" placeholder="height" name="Height" class="input-1" required></li>
+		<h1><i class="fa fa-language"></i> &nbsp; Select According to Your Lifestyle</h1>
+	    <h3>&nbsp; Food Habits</h3>
+		<li><input type="checkbox" class="check" name="FoodHabits" value="Vegan"><label>Vegan</label>
+		<input type="checkbox" class="check" name="FoodHabits" value="Vegetarian"><label>Vegetarian</label><br><br>
+	    <input type="checkbox" class="check" name="FoodHabits" value="Ova-Vegetarian"><label>Ova-Vegetarian</label>
+		<input type="checkbox" class="check" name="FoodHabits" value="Non-Vegetarian"><label>Non-Vegetarian</label></li>
+		<h3>&nbsp; Food Allergy</h3>
+		<li><input type="radio" class="check" name="FoodAllergy" value="yes"><label>Yes</label>
+		<input type="radio" class="check" name="FoodAllergy" value="no"><label>No</label><br><br>
+		<p>If Yes, please mention</p><br>
+		<textarea cols="30" rows="10" placeholder="Message.." name="message,&nbsp;questions"></textarea></li>
+		<h3>&nbsp; GI Disorder</h3>
+		<li><input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Constipation"><label>Constipation</label>
+		<input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Swallowing&nbsp;difficulty"><label>Swallowing difficulty</label><br><br>
+	    <input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Diarrhea"><label>Diarrhea</label>
+		<input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Nausea"><label>Nausea</label><br><br>
+		<input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Bloating"><label>Bloating</label>
+		<input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Acidity"><label>Acidity</label><br><br>
+        <input type="checkbox" class="check" name="GI&nbsp;Disorder" value="Other"><label>Other</label></li>
+        <h3>&nbsp; Medical History</h3>
+		<li><input type="checkbox" class="check" name="Medical&nbsp;History" value="PCOS/PCOD"><label>PCOS/PCOD</label>
+	    <input type="checkbox" class="check" name="Medical&nbsp;History" value="Diabetes&nbsp;mellitus&nbsp;I"><label>Diabetes mellitus I</label><br><br>
+	    <input type="checkbox" class="check" name="Medical&nbsp;History" value="Diabetes&nbsp;mellitus&nbsp;Ⅱ"><label>Diabetes mellitus Ⅱ</label>
+		<input type="checkbox" class="check" name="Medical&nbsp;History" value="Hypertension"><label>Hypertension</label><br><br>
+		<input type="checkbox" class="check" name="Medical&nbsp;History" value="Thyroid"><label>Thyroid</label>
+		<input type="checkbox" class="check" name="Medical&nbsp;History" value="Gluten&nbsp;allergy"><label>Gluten allergy</label><br><br>
+        <input type="checkbox" class="check" name="Medical&nbsp;History" value="lactose&nbsp;intolerace"><label>lactose intolerace</label>
+        <input type="checkbox" class="check" name="Medical&nbsp;History" value="Fatty&nbsp;liver"><label>Fatty liver</label><br><br>
+		<input type="checkbox" class="check" name="Medical&nbsp;History" value="Kidney&nbsp;disease"><label>Kidney disease</label>
+	    <input type="checkbox" class="check" name="Medical&nbsp;History" value="Cardiac&nbsp;disease"><label>Cardiac disease</label><br><br>
+        <input type="checkbox" class="check" name="Medical&nbsp;History" value="Depression"><label>Depression</label>
+        <input type="checkbox" class="check" name="Medical&nbsp;History" value="Other"><label>Other</label></li>
+        <h3>&nbsp; Food Intake</h3>
+		<li><input type="checkbox" class="check" name="Food&nbsp;Intake" value="Once&nbsp;a&nbsp;day"><label>Once a day</label>
+		<input type="checkbox" class="check" name="Food&nbsp;Intake" value="Twice&nbsp;a&nbsp;day"><label>Twice a day</label><br><br>
+	    <input type="checkbox" class="check" name="Food&nbsp;Intake" value="Thrice&nbsp;a&nbsp;day"><label>Thrice a day</label>
+	    <input type="checkbox" class="check" name="Food&nbsp;Intake" value="3-4&nbsp;meal"><label>3-4 meal</label><br><br>
+		<input type="checkbox" class="check" name="Food&nbsp;Intake" value="4-5&nbsp;meal"><label>4-5 meal</label>
+		<input type="checkbox" class="check" name="Food&nbsp;Intake" value="5-6&nbsp;meal"><label>5-6 meal</label></li>
+	    </ul>
+		<button type="submit">Continue &nbsp;<i class="fa fa-angle-right"></i></button></div>
+	</form>
+	<div>
+		<p><?php echo $success; ?></p>
+		<p><?php echo $failed; ?></p>
+	</div>
+</body>
+</html>
