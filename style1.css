@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui;
+}
+body{
+    background-color: lightyellow;
+}
+.form-1 h1{
+    color: #0254b7;
+    margin-top: 60px;
+}
+.form-1{
+    padding-top: 5%;
+    margin-left: 30%;
+}
+h3{
+    margin-top: 30px;
+}
+.input-1{
+    padding: 10px;
+    width: 20%;
+    border: 3px solid #bbb;
+    border-radius: 30px;
+    outline: none;
+    margin-right: 30px;
+}
+.input-1:focus{
+    border: 3px solid #0254b7;
+    color: blue;
+}
+.input-2{
+    padding: 10px;
+    margin-top: 15px;
+    width: 50%;
+    border: 3px solid #bbb;
+    border-radius: 30px;
+    outline: none;
+    margin-right: 30px;
+}
+.input-2:focus{
+    border: 3px solid #0254b7;
+    color: blue;
+}
+.check{
+    zoom:1.8;
+    position: absolute;
+}
+button{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #800000;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #800000;
+    padding: 10px;
+    margin: 20px;
+}
+button:hover{
+    background-color: white;
+    color: #800000;
+}
+label{
+    margin-left: 5px;
+    margin-right: 20px;
+    padding: 20px;
+    margin-top: 10px;
+}
+@media (max-width: 947px){
+.form-1{
+    margin-left: 20%;
+}
+}
+@media (max-width: 500px){
+.form-1{
+    margin-left: 15%;
+}
+.bot-icon-1, .bot-icon-2, .bot-icon-3{
+    font-size: 25px!important;
+}
+}
